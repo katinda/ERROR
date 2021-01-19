@@ -1,0 +1,31 @@
+body{
+    background-color: yellow;
+}
+
+.relative{
+    background-color: green;
+    margin: auto;
+    margin-top: 200px;
+    width: 500px;
+    height: 300px;
+    margin-bottom: 200px;
+}
+
+
+.absolute{
+    position: absolute;
+    width: 100px;
+    font-weight: bold;
+    font-size: 70px;
+    animation-name: example;
+    animation-duration: 2s;
+    margin-top: 72px;
+    margin-left: 250px;
+}
+
+
+@keyframes example {
+    0%   {color: red; left:0px;}
+    50%  {color: yellow; left:200px;}
+    100% {color: red; left:0px;}
+  }
